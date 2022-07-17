@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6513a6e.css",
-    "main.js": "/static/js/main.8d8006a6.js",
-    "static/js/787.b28653a1.chunk.js": "/static/js/787.b28653a1.chunk.js",
-    "static/media/person1.png": "/static/media/person1.a4103f48f62e20cf135c.png",
-    "static/media/port2.png": "/static/media/port2.65b0ed3371fbd41a567e.png",
-    "static/media/port5.png": "/static/media/port5.e4cddb9b55b08e2bd4e7.png",
-    "static/media/port4.png": "/static/media/port4.553001eea8d4125ebe9f.png",
-    "static/media/map.png": "/static/media/map.ee1c60dd636cb27511bb.png",
-    "static/media/testi3.png": "/static/media/testi3.c7fb89e8e62a0412fce9.png",
-    "static/media/testi2.png": "/static/media/testi2.cc2837609a47cb2e5d66.png",
-    "static/media/testi1.png": "/static/media/testi1.0767bb4d80c1ddb51000.png",
-    "static/media/port6.jpg": "/static/media/port6.f1da23959990d50eae3c.jpg",
-    "static/media/port3.jpg": "/static/media/port3.571a0e6469240f7f2939.jpg",
-    "static/media/port1.jpg": "/static/media/port1.50dbeea8f6f2398afc76.jpg",
-    "static/media/person2.png": "/static/media/person2.4484835392e874048831.png",
-    "static/media/circle1.png": "/static/media/circle1.19bfbfa14f8dcc6ed0c9.png",
-    "static/media/circle2.png": "/static/media/circle2.272304166aa394f16f9b.png",
-    "static/media/dots.png": "/static/media/dots.cd6522366d6ba701d1df.png",
+    "main.css": "/static/css/main.7c3a3b95.css",
+    "main.js": "/static/js/main.84ee1555.js",
+    "static/media/nikah-yuk.png": "/static/media/nikah-yuk.eae3c402204a5ed4a1d8.png",
+    "static/media/hefa-store.png": "/static/media/hefa-store.94b8fc1611e4241ade22.png",
+    "static/media/belajar-ngaji.png": "/static/media/belajar-ngaji.042b9003a6900a1e664f.png",
+    "static/media/zach-network.png": "/static/media/zach-network.8665b22cc5db5f8fd2ef.png",
+    "static/media/css-icon.png": "/static/media/css-icon.a43aba69c703ac027e66.png",
+    "static/media/html-icon.png": "/static/media/html-icon.6a1576928586d1f009fe.png",
+    "static/media/javascript-icon.png": "/static/media/javascript-icon.5834b2db55adb3c9fdf9.png",
+    "static/media/php-icon.png": "/static/media/php-icon.8b3eebc0cd1be898a463.png",
+    "static/media/bootstrap-icon.png": "/static/media/bootstrap-icon.3f9122c5591fc1d00091.png",
+    "static/media/react-icon.png": "/static/media/react-icon.e298dcc2383f46ecc3e0.png",
+    "static/media/laravel-icon.png": "/static/media/laravel-icon.5352e4be33afa49c2698.png",
+    "static/media/mongodb-icon.png": "/static/media/mongodb-icon.6eae92993df1069ecf0d.png",
+    "static/media/express-icon.png": "/static/media/express-icon.d428d03c63e35363fea3.png",
+    "static/media/nodejs-icon.png": "/static/media/nodejs-icon.e11f114b6ec38514bcd5.png",
+    "static/media/mysql-icon.png": "/static/media/mysql-icon.6e114768ca93a1876a92.png",
+    "static/media/hero-img.png": "/static/media/hero-img.9418de0f4c5074b3db26.png",
+    "static/media/nextjs-icon.png": "/static/media/nextjs-icon.ce24bf0e04728840c2ce.png",
     "index.html": "/index.html",
-    "main.a6513a6e.css.map": "/static/css/main.a6513a6e.css.map",
-    "main.8d8006a6.js.map": "/static/js/main.8d8006a6.js.map",
-    "787.b28653a1.chunk.js.map": "/static/js/787.b28653a1.chunk.js.map"
+    "main.7c3a3b95.css.map": "/static/css/main.7c3a3b95.css.map",
+    "main.84ee1555.js.map": "/static/js/main.84ee1555.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6513a6e.css",
-    "static/js/main.8d8006a6.js"
+    "static/css/main.7c3a3b95.css",
+    "static/js/main.84ee1555.js"
   ]
 }

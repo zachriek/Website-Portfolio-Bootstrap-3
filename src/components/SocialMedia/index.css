@@ -1,0 +1,19 @@
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.social-media-icon {
+    width: 1.6rem;
+}
+
+.social-media-icon svg {
+    opacity: 0.3;
+    transition: 0.3s ease-in-out;
+}
+
+.social-media-icon:hover svg {
+    opacity: 1;
+    fill: var(--main-color);
+}

@@ -10,6 +10,7 @@
 
 .social-media-icon svg {
     opacity: 0.3;
+    fill: var(--black-color);
     transition: 0.3s ease-in-out;
 }
 

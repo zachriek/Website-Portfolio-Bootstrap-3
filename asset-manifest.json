@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4dac2af1.css",
+    "main.css": "/static/css/main.2489e262.css",
     "main.js": "/static/js/main.2b0d4b69.js",
     "static/media/nikah-yuk.png": "/static/media/nikah-yuk.eae3c402204a5ed4a1d8.png",
     "static/media/hefa-store.png": "/static/media/hefa-store.94b8fc1611e4241ade22.png",
@@ -20,11 +20,11 @@
     "static/media/hero-img.png": "/static/media/hero-img.9418de0f4c5074b3db26.png",
     "static/media/nextjs-icon.png": "/static/media/nextjs-icon.ce24bf0e04728840c2ce.png",
     "index.html": "/index.html",
-    "main.4dac2af1.css.map": "/static/css/main.4dac2af1.css.map",
+    "main.2489e262.css.map": "/static/css/main.2489e262.css.map",
     "main.2b0d4b69.js.map": "/static/js/main.2b0d4b69.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dac2af1.css",
+    "static/css/main.2489e262.css",
     "static/js/main.2b0d4b69.js"
   ]
 }

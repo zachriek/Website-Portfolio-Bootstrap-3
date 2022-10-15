@@ -17,6 +17,7 @@ export { default as NextJSIcon } from './nextjs-icon.png';
 
 // Projects Images
 export { default as ZachNetworkIMG } from './zach-network.png';
+export { default as RealEstateIMG } from './real-estate.png';
 export { default as NikahYukIMG } from './nikah-yuk.png';
 export { default as BelajarNgajiIMG } from './belajar-ngaji.png';
 export { default as HefaStoreIMG } from './hefa-store.png';

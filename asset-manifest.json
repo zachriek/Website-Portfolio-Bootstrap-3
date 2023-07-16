@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.fe6c7b30.css",
-    "main.js": "/static/js/main.8e99f794.js",
+    "main.js": "/static/js/main.a8becdff.js",
     "static/media/real-estate.png": "/static/media/real-estate.61e209d447264a525fc3.png",
+    "static/media/kelulusan-app.png": "/static/media/kelulusan-app.5c639fcf522dd67d1c63.png",
     "static/media/nikah-yuk.png": "/static/media/nikah-yuk.279219974ca6df0252d6.png",
     "static/media/quran-app.png": "/static/media/quran-app.e089e85db5537e0cc9dc.png",
     "static/media/css-icon.png": "/static/media/css-icon.a43aba69c703ac027e66.png",
@@ -20,10 +21,10 @@
     "static/media/nextjs-icon.png": "/static/media/nextjs-icon.ce24bf0e04728840c2ce.png",
     "index.html": "/index.html",
     "main.fe6c7b30.css.map": "/static/css/main.fe6c7b30.css.map",
-    "main.8e99f794.js.map": "/static/js/main.8e99f794.js.map"
+    "main.a8becdff.js.map": "/static/js/main.a8becdff.js.map"
   },
   "entrypoints": [
     "static/css/main.fe6c7b30.css",
-    "static/js/main.8e99f794.js"
+    "static/js/main.a8becdff.js"
   ]
 }

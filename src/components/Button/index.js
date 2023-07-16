@@ -1,8 +1,5 @@
-// React
 import React from 'react';
 import propTypes from 'prop-types';
-
-// CSS
 import './index.css';
 
 const Button = (props) => {

@@ -1,129 +1,129 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --main-color: #991b1e;
-    --secondary-color: #fafafa;
-    --black-color: #050505;
-    --box-shadow-color: #991b1e30;
-    --transparent-bg: #fafafa70;
+  --main-color: #991b1e;
+  --secondary-color: #fafafa;
+  --black-color: #050505;
+  --box-shadow-color: #991b1e30;
+  --transparent-bg: #fafafa70;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
-    background-color: var(--secondary-color);
-    width: 1rem;
+  background-color: var(--secondary-color);
+  width: 1rem;
 }
 
 html::-webkit-scrollbar-thumb {
-    background-color: var(--box-shadow-color);
-    border-radius: 5px;
+  background-color: var(--box-shadow-color);
+  border-radius: 5px;
 }
 
 body {
-    overflow-x: hidden;
-    color: var(--black-color);
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--secondary-color);
+  overflow-x: hidden;
+  color: var(--black-color);
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--secondary-color);
 }
 
 body.stopScrolling {
-    overflow: hidden;
-    max-height: 100vh;
+  overflow: hidden;
+  max-height: 100vh;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    max-width: 75rem;
-    margin: 0 auto;
-    padding: 0 1.5rem;
+  position: relative;
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 .heading {
-    color: var(--main-color);
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 8px;
-    letter-spacing: 0.2px;
+  color: var(--main-color);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 0.2px;
 }
 
 .sub-heading {
-    color: var(--main-color);
-    font-size: 1.2rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.2px;
+  color: var(--main-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
 }
 
 .sub-heading span {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .text {
-    color: var(--dark-color);
-    font-size: 1rem;
-    letter-spacing: 0.4px;
-    opacity: 0.7;
+  color: var(--dark-color);
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  opacity: 0.7;
 }
 
 .swiper-slide {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .swiper-pagination {
-    position: static !important;
+  position: static !important;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 10px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    width: 12px;
-    height: 12px;
-    background-color: var(--main-color);
+  width: 12px;
+  height: 12px;
+  background-color: var(--main-color);
 }
 
 @media (max-width: 768px) {
-    .heading {
-        margin-bottom: 6px;
-    }
+  .heading {
+    margin-bottom: 6px;
+  }
 
-    .text {
-        font-size: 0.9rem;
-    }
+  .text {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 576px) {
-    .heading {
-        font-size: 1.5rem;
-        margin-bottom: 4px;
-    }
+  .heading {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
 
-    .sub-heading {
-        font-size: 1rem;
-    }
+  .sub-heading {
+    font-size: 1rem;
+  }
 }

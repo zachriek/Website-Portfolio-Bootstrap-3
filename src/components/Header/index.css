@@ -1,138 +1,138 @@
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    background-color: transparent;
-    z-index: 999;
-    transition: 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  z-index: 999;
+  transition: 0.3s ease-in-out;
 }
 
 header.scrolled {
-    background-color: var(--transparent-bg);
-    backdrop-filter: blur(15px);
-    height: 80px;
+  background-color: var(--transparent-bg);
+  backdrop-filter: blur(15px);
+  height: 80px;
 }
 
 .navbar.container {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-menu ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 3rem;
 }
 
 .nav-link {
-    position: relative;
-    color: var(--black-color);
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+  position: relative;
+  color: var(--black-color);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .nav-link::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: -0.4rem;
-    width: 0%;
-    height: 50%;
-    background-color: var(--main-color);
-    border-radius: 5px;
-    opacity: 0.3;
-    transition: 0.3s ease-in-out;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -0.4rem;
+  width: 0%;
+  height: 50%;
+  background-color: var(--main-color);
+  border-radius: 5px;
+  opacity: 0.3;
+  transition: 0.3s ease-in-out;
 }
 
 .nav-link:hover {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .nav-link:hover::before {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-link.active {
-    color: var(--main-color);
-    font-weight: 500;
+  color: var(--main-color);
+  font-weight: 500;
 }
 
 .nav-link.active::before {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-toggle {
-    display: none;
-    position: relative;
-    padding: 1rem 0;
-    width: 25px;
-    height: 12px;
-    box-sizing: content-box;
-    cursor: pointer;
+  display: none;
+  position: relative;
+  padding: 1rem 0;
+  width: 25px;
+  height: 12px;
+  box-sizing: content-box;
+  cursor: pointer;
 }
 
 .nav-toggle .bar {
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: var(--main-color);
-    border-radius: 5px;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--main-color);
+  border-radius: 5px;
 }
 
 .nav-toggle .bar:first-child {
-    top: 1rem;
-    transition: top 0.2s 0.15s, transform 0.3s;
+  top: 1rem;
+  transition: top 0.2s 0.15s, transform 0.3s;
 }
 
 .nav-toggle .bar:last-child {
-    bottom: 1rem;
-    transition: bottom 0.2s 0.15s, transform 0.3s;
+  bottom: 1rem;
+  transition: bottom 0.2s 0.15s, transform 0.3s;
 }
 
 body.open .nav-toggle .bar:first-child {
-    top: 50%;
-    transform: translateY(-50%) rotate(-45deg);
-    transition: top 0.2s, transform 0.3s 0.1s;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: top 0.2s, transform 0.3s 0.1s;
 }
 
 body.open .nav-toggle .bar:last-child {
-    bottom: 50%;
-    transform: translateY(50%) rotate(45deg);
-    transition: bottom 0.2s, transform 0.3s 0.1s;
+  bottom: 50%;
+  transform: translateY(50%) rotate(45deg);
+  transition: bottom 0.2s, transform 0.3s 0.1s;
 }
 
 @media (max-width: 576px) {
-    .nav-menu ul {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 50vw;
-        height: 50vh;
-        background-color: var(--secondary-color);
-        border-radius: 5px;
-        box-shadow: 0 15px 20px var(--box-shadow-color);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-        transition: 0.3s ease-in-out;
-    }
+  .nav-menu ul {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 50vw;
+    height: 50vh;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 0 15px 20px var(--box-shadow-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    transition: 0.3s ease-in-out;
+  }
 
-    body.open .nav-menu ul {
-        right: 0;
-    }
+  body.open .nav-menu ul {
+    right: 0;
+  }
 
-    .nav-toggle {
-        display: block;
-    }
+  .nav-toggle {
+    display: block;
+  }
 }

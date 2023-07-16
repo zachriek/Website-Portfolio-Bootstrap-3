@@ -1,13 +1,8 @@
-// React
 import React, { useEffect, useState } from 'react';
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Fade } from 'react-reveal';
-
-// Components
 import Card from '../Card';
-
-// CSS
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './index.css';

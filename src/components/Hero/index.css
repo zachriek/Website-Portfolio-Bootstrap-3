@@ -1,70 +1,70 @@
 section#home {
-    height: 100vh;
+  height: 100vh;
 }
 
 section#home .container {
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
 
 .hero-info h1 {
-    color: var(--main-color);
-    font-size: 3.8rem;
-    letter-spacing: 1px;
-    line-height: 4.5rem;
-    margin-bottom: 10px;
+  color: var(--main-color);
+  font-size: 3.8rem;
+  letter-spacing: 1px;
+  line-height: 4.5rem;
+  margin-bottom: 10px;
 }
 
 .hero-info .sub-heading {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .hero-info p {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .hero-image img {
-    width: 100%;
+  width: 100%;
 }
 
 .cta {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1.5rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem 2rem;
 }
 
 @media (max-width: 768px) {
-    section#home .container {
-        padding-top: 4rem;
-        grid-template-columns: 1fr;
-    }
+  section#home .container {
+    padding-top: 4rem;
+    grid-template-columns: 1fr;
+  }
 
-    .hero-info {
-        order: 2;
-    }
+  .hero-info {
+    order: 2;
+  }
 
-    .hero-info h1 {
-        font-size: 3rem;
-        line-height: 3.5rem;
-    }
+  .hero-info h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
 }
 
 @media (max-width: 576px) {
-    .hero-info h1 {
-        font-size: 2.6rem;
-    }
+  .hero-info h1 {
+    font-size: 2.6rem;
+  }
 
-    .hero-info p {
-        font-size: 0.9rem;
-    }
+  .hero-info p {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 320px) {
-    .hero-info h1 {
-        font-size: 2rem;
-        line-height: 2.5rem;
-    }
+  .hero-info h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
 }

@@ -1,9 +1,8 @@
 import {
-  BelajarNgajiIMG,
+  QuranAppIMG,
   BootstrapIcon,
   CSSIcon,
   ExpressJSIcon,
-  HefaStoreIMG,
   HTMLIcon,
   JavascriptIcon,
   LaravelIcon,
@@ -15,7 +14,6 @@ import {
   PHPIcon,
   ReactJSIcon,
   RealEstateIMG,
-  ZachNetworkIMG,
 } from '../assets/images';
 
 export const skillsData = [
@@ -52,57 +50,45 @@ export const skillsData = [
     image: MongoDBIcon,
   },
   {
-    name: 'ExpressJS',
+    name: 'Express.js',
     image: ExpressJSIcon,
   },
   {
-    name: 'ReactJS',
+    name: 'React.js',
     image: ReactJSIcon,
   },
   {
-    name: 'NodeJS',
+    name: 'Node.js',
     image: NodeJSIcon,
   },
   {
-    name: 'NextJS',
+    name: 'Next.js',
     image: NextJSIcon,
   },
 ];
 
 export const projectsData = [
   {
-    image: ZachNetworkIMG,
-    name: 'Zach Network',
-    tech: 'Laravel',
-    description: 'Zach Network adalah sebuah aplikasi berbasis web layanan jejaring sosial yang memungkinkan penggunanya untuk mengirim dan membaca status berbasis teks.',
-    link: 'http://zach-network.000webhostapp.com/',
-  },
-  {
     image: RealEstateIMG,
     name: 'Real Estate',
-    tech: 'Laravel',
-    description: 'Real Estate adalah sebuah aplikasi berbasis web yang memungkinkan penggunanya untuk melihat dan membeli properti.',
-    link: 'https://github.com/zachriek/laravel-real-estate',
+    tech: 'Laravel, Bootstrap',
+    description:
+      'Real Estate is an online platform that provides information about properties, such as houses, apartments, land, and commercial properties that are available for sale, rent, or lease.',
+    link: 'https://github.com/zachriek/laravel-real-estate/',
   },
   {
     image: NikahYukIMG,
     name: 'NikahYuk',
-    tech: 'HTML, CSS, Javascript, Bootstrap',
-    description: 'NikahYuk adalah sebuah website undangan pernikahan digital yang memungkinkan penggunanya untuk melihat jadwal acara serta melihat foto galeri pengantin.',
-    link: 'https://zachriek.github.io/nikah-yuk/',
+    tech: 'Next.js, Express.js, Tailwind CSS',
+    description: 'NikahYuk is an online platform that offers a convenient and modern way to create, customize, and send invitations for various events and occasions.',
+    link: 'https://nikah-yuk.vercel.app/ali-zahra/',
   },
   {
-    image: BelajarNgajiIMG,
-    name: 'Belajar Ngaji',
-    tech: 'ReactJS',
-    description: 'Belajar Ngaji adalah sebuah website untuk menampilkan surah al-quran serta terjemahannya.',
-    link: 'https://incomparable-blancmange-55d5ee.netlify.app/',
-  },
-  {
-    image: HefaStoreIMG,
-    name: 'Hefa Store',
-    tech: 'HTML, CSS, Javascript, Bootstrap',
-    description: 'Hefa Store adalah sebuah website toko online yang memungkinkan penggunanya untuk melihat dan membeli produk yang tersedia.',
-    link: 'https://zachriek.github.io/hefa-store/',
+    image: QuranAppIMG,
+    name: 'Quran App',
+    tech: 'Next.js, Mantine UI',
+    description:
+      'Quran App is an online platform that provides access to the Quran, the holy book of Islam. It offers various features and resources to help individuals read, study, and understand the Quran more effectively.',
+    link: 'https://quran-app-zachriek.vercel.app/',
   },
 ];

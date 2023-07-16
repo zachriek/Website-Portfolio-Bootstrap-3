@@ -86,7 +86,7 @@ export const projectsData = [
   {
     image: QuranAppIMG,
     name: 'Quran App',
-    tech: 'Next.js, Mantine UI',
+    tech: 'React.js, Mantine UI',
     description:
       'Quran App is an online platform that provides access to the Quran, the holy book of Islam. It offers various features and resources to help individuals read, study, and understand the Quran more effectively.',
     link: 'https://quran-app-zachriek.vercel.app/',

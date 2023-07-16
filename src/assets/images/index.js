@@ -16,6 +16,7 @@ export { default as NodeJSIcon } from './nodejs-icon.png';
 export { default as NextJSIcon } from './nextjs-icon.png';
 
 // Projects Images
+export { default as KelulusanIMG } from './kelulusan-app.png';
 export { default as RealEstateIMG } from './real-estate.png';
 export { default as NikahYukIMG } from './nikah-yuk.png';
 export { default as QuranAppIMG } from './quran-app.png';

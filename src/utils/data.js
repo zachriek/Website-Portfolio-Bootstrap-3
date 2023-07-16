@@ -14,6 +14,7 @@ import {
   PHPIcon,
   ReactJSIcon,
   RealEstateIMG,
+  KelulusanIMG,
 } from '../assets/images';
 
 export const skillsData = [
@@ -68,6 +69,14 @@ export const skillsData = [
 ];
 
 export const projectsData = [
+  {
+    image: KelulusanIMG,
+    name: 'Pengumuman Kelulusan',
+    tech: 'Laravel, Bootstrap',
+    description:
+      'The Graduation Announcement Website is an online platform that provides the latest and accurate information regarding graduation outcomes for students or exam participants. The website is designed with the aim of offering easy and fast access for users to find out whether they have passed or not.',
+    link: 'https://github.com/zachriek/kelulusan/',
+  },
   {
     image: RealEstateIMG,
     name: 'Real Estate',
